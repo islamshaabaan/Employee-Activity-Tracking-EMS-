@@ -1,0 +1,110 @@
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #2E3091;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #2E3091;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* Tables */
+
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(244,67,54,1);
+ }
+.tbl-content{
+  height:650px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid #F44336;
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+  border-bottom: solid 1px rgba(244,67,54,0.3);
+}
+tr:hover{background-color: rgba(244,67,54,0.3);}
+tr{cursor: pointer; transition: all .25s ease-in-out}
+tr.selected {background-color: rgba(244,67,54,0.3); font-weight: bold; rgba(244,67,54,0.3);}
+/* demo styles */
+
+
+section{
+  margin: 0px;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+/*button*/
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #2E3091;
+}
+
+.fotter
+{
+	height: 200px;
+    width: 100%;
+	background-color: #F44336;
+}
